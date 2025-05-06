@@ -1,0 +1,15 @@
+th , td{
+    font-size: 0.80vw;
+}
+thead{
+    position: sticky;
+    top: 0;
+    background-color: #f8f9fa; /* Bootstrap light background */
+    z-index: 2;
+  }
+
+  .fixed-header-container {
+    height: 80vh; /* Set height of the scrollable div */
+    overflow-y: auto;
+    border: 1px solid #ddd;
+  }
